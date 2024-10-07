@@ -30,4 +30,4 @@ jobs:
         with:
           credentials_json: '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}'
       - name: Train model
-        run: dvc repro --pull
+        run: dvc repro --
